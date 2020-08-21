@@ -1,0 +1,108 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {    
+    background-color: rgba(128, 128, 128, 0.144);
+    height: 100px;
+    width: 100%;
+    background-image: url("WebsitePhotos/Logo1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+nav {
+    background-color: rgba(128, 128, 128, 0.144);
+    height: 50px;  
+    width: 100%;
+}
+
+.topnav {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topnav a {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-top: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.topnav a:hover {
+    background-color: rgba(136, 136, 136, 0.74);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(21, 27, 31) ;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
