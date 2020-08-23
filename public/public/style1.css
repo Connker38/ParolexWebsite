@@ -5,7 +5,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url("WebsitePhotos/Pathway80-20.jpg");
+    background-image: url("WebsitePhotos/WebsiteJPEGs/Pathway80-20.jpg");
   
     /* Set a specific height */
     min-height: 800px; 
@@ -27,7 +27,7 @@ body {
 
 .parallax2 {
     /* The image used */
-    background-image: url("WebsitePhotos/River-flow-1.png ");
+    background-image: url("WebsitePhotos/WebsiteJPEGs/Waterfall50-30.jpg");
   
     /* Set a specific height */
     min-height: 800px; 
@@ -43,7 +43,7 @@ body {
 
 .parallax3 {
     /* The image used */
-    background-image: url("WebsitePhotos/Bruce3.png");
+    background-image: url("WebsitePhotos/WebsiteJPEGs/Bruce7-70-30.jpg");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -113,6 +113,7 @@ nav {
     .topnav .icon {
         display: none;
     }
+
     @media screen and (max-width: 1024px) {
 
       span {
@@ -260,7 +261,6 @@ main p {
 }
 
 .second-parallax p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 30px;
     margin: 0px;
