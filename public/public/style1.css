@@ -113,7 +113,7 @@ nav {
     .topnav .icon {
         display: none;
     }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 1024px) {
 
       span {
         display: block;
@@ -129,31 +129,29 @@ nav {
         background-color: #111;
         overflow-x: hidden;
         transition: 0.5s;
-        
+        display: block !important;
       }
       
       .topnav a {
+        display: flex;
         text-align: start;
         font-size: 15px;
         color: #818181;
         transition: 0.3s;
-        
+
       }
-    
-      .topnav .closebtn {
-        display: inline;
-      }
-      
+
       .topnav a:hover {
         color: #f1f1f1;
       }
       
       .topnav .closebtn {
-        position: absolute;
+        text-align: right;
+        display: block;
+        position: relative;
         top: 0;
         right: 25px;
         font-size: 36px;
-        margin-left: 50px;
       }
     }
   

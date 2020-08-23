@@ -15,6 +15,7 @@
     <nav>
         
         <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a class="Home" href="index.html">HOME</a>
             <a class="Gallery" href="Gallery.html">GALLERY</a>
             <a class="Requests" href="Requests.html">REQUESTS</a>
@@ -34,6 +35,14 @@
     </main>
 
 <script>
+
+function openNav() {
+  document.getElementById("myTopnav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("myTopnav").style.width = "0";
+}
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
